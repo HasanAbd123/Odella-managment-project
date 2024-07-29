@@ -1,0 +1,25 @@
+.listline{
+    display: flex;
+    .tripscontainer{
+        
+        flex:6;
+        justify-content: center;
+        align-items: center;
+        background-color:whitesmoke;
+        h2{
+
+            padding: 10px;
+            font-weight: 'bold';
+            font-size: 30px;
+        color:#3178ba;
+            
+           }
+           .ll{
+            display: flex;
+            margin-left: 100px;
+            .ii{
+                width: 1200px;
+            }
+        }
+    }
+}

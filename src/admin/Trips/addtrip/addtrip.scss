@@ -1,0 +1,166 @@
+.addtrip{
+    display: flex;
+    
+    .homecontainer{
+       
+        flex:6;
+        background-color:whitesmoke;
+
+        .addcontaner{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .rightadd{
+                width:500px;
+                height: 800px;
+                background-color: rgb(255, 255, 255);
+               display: flex;
+               flex-direction: column;
+               
+                .selectin{
+                    margin: 30px;
+
+                    .forsel{
+                        height: 30px;
+                    width: 50%;
+                    padding: 0 10px;
+                    border-radius: 25px;
+                    border: 1px solid #44e3ec;
+                    outline: none;
+                    background-color: rgb(243, 239, 239);
+                    margin: 10px;
+                    }
+                    .inputbox{
+                        display: flex;
+                        flex-wrap: wrap;
+                       
+                        width: 100%;
+                        padding-bottom: 15px;
+                       
+                        lable{
+                            width: 100%;
+                            font-weight: bold;
+                            margin: 5px;
+                        }
+                        input{
+                            height: 30px;
+                            width: 100%;
+                            padding: 0 10px;
+                            border-radius: 25px;
+                            border: 1px solid #44e3ec;
+                            outline: none;
+                            background-color: rgb(243, 239, 239);
+    
+                        }
+                    }
+                }
+                .inputfor{
+
+                    display: flex;
+                    margin: 20px;
+                .inputbox{
+                    display: flex;
+                    flex-wrap: wrap;
+                   justify-content: center;
+                   align-items: center;
+                    width: 30%;
+                    padding-bottom: 15px;
+                    margin: 10px;
+                    lable{
+                        width: 100%;
+                        font-weight: bold;
+                       
+                    }
+                     .forse{
+                        height: 30px;
+                    width: 100%;
+                   
+                    border-radius: 25px;
+                    border: 1px solid #44e3ec;
+                    outline: none;
+                    background-color: rgb(243, 239, 239);
+                    
+                    }
+                  
+                }}
+
+                .bott{
+                    
+                    width: 130px;
+                    height: 50px;
+                    color:white;
+                    border-radius: 40px;
+                    background-color: rgb(37, 129, 190); 
+                    transition: 0.5s;
+                    margin-right: 50px;
+                    
+                    &:hover{
+                        background-color: rgb(225, 219, 219);
+                        color:rgb(37, 129, 190);  
+                        scale: 1.1;
+                        
+                    }}   
+
+            }
+
+            .leftadd{
+                width:500px;
+                height: 800px;
+                background-color: rgba(215, 213, 213, 0.519);
+                display: flex;
+                flex-direction: column;
+                gap:370px;
+                align-items: center;
+
+                .pos{
+                    display: flex;
+                    gap:30px;
+                    margin-right: 20px;
+                    .postim{
+
+                        margin-top: 20px;
+                        .singpos{
+                            margin-top: 30px; 
+                            font-weight: bold;
+                        }
+                    }
+                    .tim{
+                        margin-top: 32px;
+                        .inp{
+                            height: 30px;
+                            margin-bottom: 4px;
+                            width: 100%;
+                            padding: 0 10px;
+                            border-radius: 25px;
+                            border: 1px solid #44e3ec;
+                            outline: none;
+                            background-color: rgb(243, 239, 239);
+                        }
+                        .singtim{
+                            margin-top: 20px; 
+                        }
+                    }
+                }
+                .bott{
+                    
+            width: 130px;
+            height: 50px;
+            color:white;
+            border-radius: 40px;
+            background-color: rgb(37, 129, 190); 
+            transition: 0.5s;
+          
+            margin-left: 50px;
+            
+            &:hover{
+                background-color: rgb(225, 219, 219);
+                color:rgb(37, 129, 190);  
+                scale: 1.1;
+                
+            }
+                }
+            }
+        }
+       
+    }
+}

@@ -1,0 +1,31 @@
+.listrequest{
+    display: flex;
+  
+   
+   
+    .requestcontainer{
+       
+        flex:6;
+        justify-content: center;
+        align-items: center;
+        background-color:whitesmoke;
+      
+       
+        h2{
+
+            padding: 10px;
+            font-weight: 'bold';
+            font-size: 30px;
+        color:#3178ba;
+           }
+        
+         .ddd{
+            display: flex;
+        margin-left: 100px;
+            .d{
+                width: 1200px;
+            }
+         }
+      
+    }
+}

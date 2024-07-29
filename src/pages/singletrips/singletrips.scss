@@ -1,0 +1,47 @@
+.single{
+    display: flex;
+    
+    .singlecontainer{
+
+        flex:6;
+        justify-content: center;
+        align-items: center;
+        background-color:whitesmoke;
+      
+
+        .tr{
+            display: flex;
+        margin-left: 100px;
+            .ttrr{
+                width: 1900px;
+            }
+         }
+    }
+}
+.single:lang(ar){
+    
+    display: flex;
+    
+    
+    .singlecontainer{
+
+        flex:6;
+        justify-content: center;
+        align-items: center;
+        background-color:whitesmoke;
+      
+
+        .tr{
+            display: flex;
+        margin-left: 100px;
+            .ttrr{
+                width: 1900px;
+            }
+         }
+    }
+       
+        
+
+       
+
+}

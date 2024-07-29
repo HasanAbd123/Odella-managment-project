@@ -1,0 +1,37 @@
+{
+
+    "title":"العربية",
+    "home":" الصفحة الرئيسية",
+    "student":"الطلاب",
+    "request":"الطلبات",
+    "Trips":"الرحلات",
+    "Lines":"الخطوط",
+    "Supervisor":"المشرفين",
+    "Drivers":"السائقين",
+    "profile":"الملف الشخصي",
+    "Logout":"خروج",
+   
+    "Setting":" الإعدادات",
+       "claim":"الشكاوى",
+       "position":"الموقف",
+    "University":"الكلية",
+    "city":"المدينة",
+    "number day":"عدد الأيام",
+    "area":"المنطقة",
+    "cost":"تكلفة الاشتراك",
+    "date":"التاريخ",
+    "name":"الإسم",
+    "email":"البريد",
+    "number":"الرقم",
+    "line":"الخط",
+    "positions":"المواقف",
+    "lines":"الخطوط",
+    "supsecreptions":"الاشتراكات",
+    "buses":"الباصات",
+    "sopervisor":"المشرفين",
+    "employee":"الموظفين",
+    "losts":"المفقودات",
+    "evaluation" :"التقييمات"
+    
+    
+}

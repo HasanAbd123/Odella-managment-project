@@ -1,0 +1,55 @@
+.alls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 30px;
+    background-color: rgb(249, 248, 248);
+    border: 1px solid  rgb(249, 248, 248);
+    border-radius: 20px;
+    width: 94%;
+    padding: 10px;
+.inputbox{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 50%;
+    padding-bottom: 10px;
+
+    lable{
+        width: 70%;
+        font-weight: bold;
+        margin: 5px;
+    }
+    input{
+        height: 20px;
+        width: 70%;
+        padding: 0 10px;
+        border-radius: 25px;
+        border: 1px solid #44e3ec;
+        outline: none;
+        background-color: rgb(243, 239, 239);
+    }
+}}
+
+.bot{
+    margin: 10px 0;
+    button{
+        width: 100px;
+        
+        padding: 10px;
+        display: block;
+        font-size: 20px;
+        color:white;
+        border: none;
+        border-radius: 25px;
+        background-color:  rgb(37, 129, 190);
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover{
+        scale:1.1;
+        background-color: #ccc;
+        color:  rgb(37, 129, 190);;
+        }
+    }
+}

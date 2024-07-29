@@ -1,0 +1,50 @@
+
+
+.dropdown{
+   
+   
+    position: absolute;
+    top:4.5rem;
+    left:6rem;
+    width:120px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    ui{
+          list-style: none;
+          
+        li{
+            margin-bottom: 15px;
+            margin-left: 20px;
+            
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover{
+                color: gray;
+                scale: 1.2;
+            }
+          
+        }
+        
+       
+        .log{
+            margin-top: 20px;
+        }
+    }
+   
+}
+
+.dropdown::before{
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    left: 1.1rem;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+    border-left: 1px solid gray;
+
+}

@@ -1,0 +1,74 @@
+.addline{
+    display: flex;
+    
+    .ightpart{
+       width:1200px;
+       height: 800px;
+    }
+    .leftpart{
+      
+        width: 400px;
+        height: 800px;
+        border-right: solid rgb(37, 129, 190) 10px;
+        .all{
+            width: 400px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            .inputbo{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding-bottom: 15px;
+                justify-content: center;
+                align-items: center;
+                lable{
+                    width: 50%;
+                    font-weight: bold;
+                    margin: 5px;
+                }
+                input{
+                    height: 30px;
+                    width: 75%;
+                    padding: 0 10px;
+                    border-radius: 25px;
+                    border: 1px solid #44e3ec;
+                    outline: none;
+                    background-color: rgb(243, 239, 239);
+                }
+                .formcon{
+                    width:75%;
+                    padding:5px;
+                    border-radius: 20px;
+                }
+            
+            }
+                .botons{
+                  
+                  .bott{
+                    margin-bottom: 20px;
+                  
+                    border-radius: 25px;
+                    button{
+                        width: 130px;
+                        height: 40px;
+                        background-color: rgb(37, 129, 190);
+                        color: white;
+                        border-radius: 25px;
+                        transition: 0.5s;
+                        &:hover{
+                            background-color: rgb(201, 196, 196);
+                            color: rgb(37, 129, 190);
+                            scale: 1.1;
+                        }
+                    }
+                  }
+                }
+
+        }
+
+    }
+}

@@ -1,0 +1,54 @@
+.Listlost{
+    display: flex;
+    
+    .homecontainer{
+        flex:6;
+        justify-content: center;
+        align-items: center;
+        background-color:whitesmoke;
+        h2{
+
+            padding: 10px;
+            font-weight: 'bold';
+            font-size: 30px;
+        color:#3178ba;
+            
+           }
+           .ll{
+            display: flex;
+            margin-left: 50px;
+            .l{
+                width: 1200px;
+            }}
+       
+
+        .actionbot{
+            display: flex;
+            
+            width: 850px;
+            height: 70px;
+           
+            justify-content: flex-end;
+            align-items: flex-start;
+            margin-right: 3%;
+            margin-top: 10px;
+        .addbot{
+        
+           
+            width: 130px;
+            height: 60px;
+            color:white;
+            border-radius: 30px;
+            background-color: rgb(37, 129, 190); 
+            transition: 0.5s;
+            
+            &:hover{
+                background-color: rgb(225, 219, 219);
+                color:rgb(37, 129, 190);  
+                scale: 1.1;
+                
+            }
+        
+    }}
+    }
+}

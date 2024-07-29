@@ -1,0 +1,38 @@
+{
+
+    "title":"English11",
+    "home":"home" ,
+    "student":"student",
+    "request":"اrequest",
+    "Trips":"Trips",
+    "Lines":"Lins",
+    "Supervisor":"Supervisor",
+    "Drivers":"Drivers",
+    "profile":"profile",
+    "Logout":"Logout",
+    "Setting":" setting",
+    "ID":"ID",
+    "claim":"claim",
+    "position":"position",
+    "University":"University",
+    "city":"city",
+    "number day":"number day",
+    "area":"area",
+    "cost":"cost",
+    "date":"date",
+    "type supsecreption": "type supsecreption",
+    "name":"name",
+    "email":"email",
+    "number": "number",
+    "line":"line",
+    "positions":"positions",
+    "lines":"lines",
+    "supsecreptions":"supsecreptions",
+    "buses":"buses",
+    "sopervisor":"sopervisor",
+    "employee":"employee",
+    "losts":"losts",
+    "evaluation":"evaluation"
+
+
+}

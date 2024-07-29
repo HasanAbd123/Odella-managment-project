@@ -1,0 +1,74 @@
+
+    .noo{
+        background: #ff0000;
+        padding: 2px;
+        border-radius: 50%;
+        color:  #f00;
+        vertical-align: top;
+        margin-left: -10px;
+      
+        color:white;
+        font-size: 15px;
+       
+
+       
+    }
+    .nic{
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+
+.dropdownotfirebas{
+   
+   
+    position: absolute;
+    z-index: 999;
+    top:4.5rem;
+    left:10rem;
+    width:200px;
+    height: 500px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    overflow-y: scroll;
+    
+    ui{
+          list-style: none;
+          hr{
+            width: 100%;
+          }
+        li{
+            margin-bottom: 15px;
+            margin-left: 20px;
+            
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover{
+                color: gray;
+                scale: 1.2;
+            }
+          
+        }
+        
+       
+        .log{
+            margin-top: 20px;
+        }
+    }
+   
+}
+
+.dropdownotfirebas::before{
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    left: 1.1rem;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+    border-left: 1px solid gray;
+
+}

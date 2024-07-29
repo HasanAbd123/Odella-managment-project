@@ -1,0 +1,163 @@
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    gap: 10px;
+    .imagee{
+        direction: ltr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: flex-end;
+        gap: 20px;
+        background-color:white;
+        width:300px;
+        height: 700px;
+       border-left: 7px solid rgb(37, 129, 190);
+       border-radius: 25px;
+       box-shadow: 2px 4px 10px rgba(201,201,201,0.47);
+       margin-top: 90px;
+       h3{
+        margin-right: 10px;
+        span{
+         color:gray
+        }
+       }
+
+       .photo{
+        margin-right: 3px;
+        margin-top: 5px;
+        background-color: rgb(209, 208, 208);
+        width: 290px;
+        height: 300px;
+        border-radius: 20px;
+        text-align: center;
+        .persphoto{
+            width:280px;
+            height: 300px;
+            border-radius: 20px;
+            object-fit: cover;
+            margin-right: 5px;
+            transition: 0.5s;
+           &:hover{
+         scale: 1.1;
+        
+            
+           }
+        }
+       h2{
+        margin-top: 90px;
+       }
+       }
+    }
+    .failde{
+        background-color:white;
+        width:600px;
+        height: 700px;
+        border-radius: 10px;
+        box-shadow: 2px 7px 15px rgba(201,201,201,0.47);
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        .content{
+            width: 500px;
+            padding: 20px ;
+            .all{
+                display: flex;
+                justify-content: space-between;
+               
+            .inputbox{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                padding-bottom: 10px;
+                lable{
+                    width: 70%;
+                    font-weight: bold;
+                    margin: 5px;
+                }
+                input{
+                    height: 30px;
+                    width: 75%;
+                    padding: 0 10px;
+                    border-radius: 25px;
+                    border: 1px solid #44e3ec;
+                    outline: none;
+                    background-color: rgb(243, 239, 239);
+                }
+            }
+        }
+            .botons{
+                display: flex;
+                gap: 15px;
+                align-items: center;
+                margin-top: 150px;
+                justify-content:flex-start;
+            .bot{
+                margin: 40px 0;
+                button{
+                    width: 100px;
+                    
+                    padding: 10px;
+                    display: block;
+                    font-size: 20px;
+                    color:white;
+                    border: none;
+                    border-radius: 25px;
+                    background-color:  rgb(37, 129, 190);
+                    cursor: pointer;
+                    transition: 0.5s;
+                    &:hover{
+                    scale:1.1;
+                    background-color: #ccc;
+                    color:  rgb(37, 129, 190);;
+                    }
+                }
+            }}
+        }
+    }
+     
+       .Select{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+       
+        background-color:white;
+        width:600px;
+        height: 700px;
+        margin-top: 90px;
+      
+        .boxselect{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f7f5f5;
+            height: 90px;
+            width: 580px;
+            margin-top: 5px;
+            border: 1px solid rgb(210, 206, 206);
+            border-radius: 15px;
+            gap:3px;
+            color: rgb(99, 99, 100);
+          .form{ 
+            display: flex;
+           align-items: center;
+           justify-content: center;
+           gap: 5px;
+            .formcon{
+                width:135px;
+                padding:5px;
+                border-radius: 20px;
+            }
+        }
+        }
+
+       }
+      
+
+}

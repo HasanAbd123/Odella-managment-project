@@ -1,0 +1,136 @@
+.List{
+    display: flex;
+    .Listcontainer{
+       
+        flex:6;
+        align-items: center;
+        background-color:whitesmoke;
+        h2{
+            padding: 20px;
+        }
+        .items{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+            gap: 10px;
+            .image{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                background-color:white;
+                width:300px;
+                height: 750px;
+               border-left: 7px solid rgb(37, 129, 190);
+               border-radius: 25px;
+               box-shadow: 2px 4px 10px rgba(201,201,201,0.47);
+               margin-top: 20px;
+
+               .photo{
+                margin-top: 5px;
+                background-color: rgb(37, 129, 190);
+                width: 290px;
+                height: 300px;
+                border-radius: 20px;
+                text-align: center;
+                .persphoto{
+                    width:280px;
+                    height: 300px;
+                    border-radius: 20px;
+                    object-fit: cover;
+                    margin-right: 5px;
+                    transition: 0.5s;
+                   &:hover{
+                 scale: 1.1;
+                
+                    
+                   }
+                }
+               h2{
+                margin-top: 90px;
+               }
+               }
+               .inputboxs{
+                margin-right: 20px;
+                input{
+                    border: solid 2px rgb(37, 129, 190); 
+                   
+                }
+               }
+            }
+            .faild{
+                background-color:white;
+                width:800px;
+                height: 750px;
+                border-radius: 10px;
+                box-shadow: 2px 7px 15px rgba(201,201,201,0.47);
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                .content{
+                    
+                    padding: 10px ;
+                    .inputbox{
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 100%;
+                        padding-bottom: 7px;
+                        lable{
+                            width: 70%;
+                            font-weight: bold;
+                            margin: 5px;
+                        }
+                        input{
+                            height: 40px;
+                            width: 100%;
+                            padding: 0 10px;
+                            border-radius: 25px;
+                            border: 1px solid #ccc;
+                            outline: none;
+                            background-color: rgb(243, 239, 239);
+                        }
+                        .sel{
+                            height: 40px;
+                            width: 50%;
+                            padding: 0 10px;
+                            border-radius: 25px;
+                            border: 1px solid #ccc;
+                            outline: none;
+                            background-color: rgb(243, 239, 239);
+                        }
+                    }
+                    .boton{
+                        display: flex;
+                        gap:5px;
+                    .bots{
+                        margin: 15px 0;
+                        button{
+                            width: 100px;
+                           
+                            padding: 10px;
+                            display: block;
+                            font-size: 20px;
+                            color:white;
+                            border: none;
+                            border-radius: 25px;
+                            background-color:  rgb(37, 129, 190);
+                            cursor: pointer;
+                            transition: 0.5s;
+                            &:hover{
+                            scale:1.1;
+                            background-color: #ccc;
+                            color: rgb(14, 84, 190);
+                            }
+                        }
+                    }
+                }}
+            }
+
+
+        }
+       
+    }
+}
