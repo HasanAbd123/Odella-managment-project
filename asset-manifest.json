@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Odella-managment-project/static/css/main.6bf890a2.css",
+    "main.js": "/Odella-managment-project/static/js/main.ca5c6307.js",
+    "static/media/nawar-logo.png": "/Odella-managment-project/static/media/nawar-logo.3e4d099adc024d6d99d8.png",
+    "index.html": "/Odella-managment-project/index.html",
+    "main.6bf890a2.css.map": "/Odella-managment-project/static/css/main.6bf890a2.css.map",
+    "main.ca5c6307.js.map": "/Odella-managment-project/static/js/main.ca5c6307.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bf890a2.css",
+    "static/js/main.ca5c6307.js"
+  ]
+}
